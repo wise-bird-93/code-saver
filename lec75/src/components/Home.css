@@ -1,0 +1,30 @@
+.HomeContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hometitle{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    #titletext{
+        width: 900px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: rgb(71, 70, 70);
+    }
+}
+
+.Hometext{
+    display: flex;
+    margin-right: px;
+    textarea{
+        height: 500px;
+        width: 1000px;
+        border-radius: 10px;
+        background-color: rgb(71, 70, 70);
+    }
+}

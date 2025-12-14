@@ -1,0 +1,28 @@
+.ViewContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Viewtitle{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    #titletext{
+        width: 390px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: rgb(71, 70, 70);
+    }
+}
+
+.Viewtext{
+    display: flex;
+    margin-right: 200px;
+    textarea{
+        height: 500px;
+        width: 500px;
+        border-radius: 10px;
+        background-color: rgb(71, 70, 70);
+    }
+}
