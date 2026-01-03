@@ -1,0 +1,21 @@
+.NavContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100vw;
+    height: 100px;
+    gap: 100px;
+    align-items: center;
+    /* padding-left: 100px; */
+    color: black;
+    .Navlogo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        img{
+            height: 50px;
+            width: 50px;
+        }
+    }
+    
+}

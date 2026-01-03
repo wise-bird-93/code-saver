@@ -1,0 +1,56 @@
+.pastesearch{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 15px;
+}
+.search-icon {
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+}
+.pastesearch input {
+    width: 0;
+    opacity: 0;
+    padding: 0;
+    border: none;
+    transition: all 0.3s ease;
+}
+.pastesearch.open input {
+    width: 130px;
+    opacity: 1;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.pastelist{
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+.pasteTitle{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.pasteButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.pasteDate{
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    color: black;
+    background-color: #d3ea05;
+}
